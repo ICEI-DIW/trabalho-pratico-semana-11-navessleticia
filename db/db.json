@@ -1,18 +1,74 @@
 {
-  "usuarios": [
+  "receitas": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "nome": "Ovo de Páscoa recheado com creme de brownie",
+      "descricao": "Descrição: Essa deliciosa receita de ovo de Páscoa recheado com creme de brownie combina a suavidade do chocolate com a cremosidade do brownie. Perfeito para quem quer inovar na Páscoa e oferecer uma sobremesa irresistível!",
+      "tempo": "30 min",
+      "modo-preparo": "Derreta o chocolate ao leite e o chocolate branco em banho-maria. Misture o creme de leite e bata até formar uma ganache cremosa. Prepare o brownie: derreta a manteiga e adicione o açúcar, os ovos, a farinha de trigo, o chocolate em pó e o fermento. Misture bem e leve ao forno por cerca de 20 minutos. Corte o brownie em pedaços pequenos e reserve. Modele a casca do ovo de Páscoa com o chocolate derretido. Coloque o brownie picado dentro da casca do ovo, cubra com mais ganache de chocolate e decore a gosto.",
+      "imagem": "assets/img/ovo-de-pascoa.png",
+      "categoria": "doce",
+      "card-receita": false
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "nome": "Risoto de camarão com toque de limão siciliano",
+      "descricao": "Um risoto sofisticado e delicioso, que traz o frescor do limão siciliano combinado com o sabor do camarão. Ideal para uma refeição especial e cheia de sabor.",
+      "modo-preparo": "Cozinhe o arroz arbóreo em uma panela com caldo de legumes ou peixe, mexendo sempre. Em outra frigideira, refogue os camarões no azeite com alho e cebola. Acrescente o arroz já cozido à frigideira com os camarões e adicione o limão siciliano (suco e raspas). Misture tudo, adicione queijo parmesão ralado e, se necessário, ajuste o sal. Sirva imediatamente, decorado com mais raspas de limão e folhinhas de manjericão.",
+      "tempo": "45 min",
+      "imagem": "assets/img/risoto.jpg",
+      "categoria": "salgado",
+      "card-receita": false
+    },
+    {
+      "id": 3,
+      "nome": "Raviolli de espinafre com ricota ao molho branco",
+      "descricao": "Essa receita de ravioli recheado com espinafre e ricota, servido com um molho branco cremoso, é uma opção deliciosa e fácil de preparar para um jantar leve e nutritivo.",
+      "modo-preparo": "Prepare a massa de ravioli, misturando farinha de trigo, ovos e água. Abra a massa e corte os quadrados. Para o recheio, refogue o espinafre até murchar, depois misture com a ricota e tempere com sal, pimenta e noz-moscada. Recheie os quadrados de massa com o espinafre e a ricota, formando os raviólis.Cozinhe os raviolis em água salgada até que subam à superfície.Para o molho branco, derreta manteiga, adicione farinha de trigo e, aos poucos, o leite, mexendo constantemente até formar um molho cremoso.Sirva os raviolis com o molho branco por cima e queijo parmesão ralado.", 
+      "tempo": "50 min",
+      "imagem": "assets/img/raviolli.jpg",
+      "categoria": "salgado",
+      "card-receita": false
+    },
+    {
+      "id": 4,
+      "nome": "Avocado Toast",
+      "descricao": "Essa receita de avocado toast é uma opção simples e deliciosa para um café da manhã ou lanche saudável.",
+      "modo-preparo": "Torre duas fatias de pão integral e, enquanto isso, amasse o abacate com um garfo. Tempere com sal, pimenta, azeite e suco de limão. Espalhe a mistura de abacate sobre as fatias de pão torrado e finalize com sementes de chia ou tomate-cereja. Sirva imediatamente.",
+      "tempo": "10 min",
+      "imagem": "assets/img/avocado.jpg",
+      "categoria": "salgado",
+      "card-receita": true
+    },
+    {
+      "id": 5,
+      "nome": "Panqueca Americana",
+      "descricao": "As panquecas americanas são fofas e deliciosas, perfeitas para o café da manhã ou lanche.",
+      "modo-preparo": "Em uma tigela, misture farinha de trigo, fermento em pó, açúcar e sal. Em outra tigela, bata o leite, ovo e manteiga derretida. Misture os ingredientes secos com os líquidos até obter uma massa homogênea. Aqueça uma frigideira antiaderente e coloque porções da massa, formando círculos. Cozinhe por 2-3 minutos de cada lado. Sirva com mel, frutas ou calda de chocolate.",
+      "tempo": "20 min",
+      "imagem": "assets/img/panqueca.jpg",
+      "categoria": "doce",
+      "card-receita": true
+    },
+    {
+      "id": 6,
+      "nome": "Cheesecake de Frutas Vermelhas",
+      "descricao": "O cheesecake de frutas vermelhas é uma sobremesa cremosa e saborosa, com um toque refrescante das frutas.",
+      "modo-preparo": " Triture biscoitos de maisena e misture com manteiga derretida para formar a base do cheesecake. Pressione a mistura em uma forma de fundo removível e leve à geladeira. Para o recheio, bata cream cheese, açúcar e ovos até obter uma mistura lisa. Despeje sobre a base e asse em forno pré-aquecido a 180°C por 40 minutos. Deixe esfriar e cubra com uma calda de frutas vermelhas. Sirva gelado.",
+      "tempo": "2h",
+      "imagem": "assets/img/cheesecake.jpg",
+      "categoria": "doce",
+      "card-receita": true
+    },
+    {
+      "id": 7,
+      "nome": "Poke",
+      "descricao": " tradicional prato havaiano à base de peixe cru.",
+      "modo-preparo": "Em um bowl, comece pela base de arroz japonês cozido. Acomode o salmão em cubos, a cebola roxa, o pepino, a cenoura e o abacate por cima do arroz, e regue tudo com o shoyu. Finalize com a cebolinha e o gergelim preto e branco.",
+      "tempo": "30min",
+      "imagem": "assets/img/poke.jpg",
+      "categoria": "salgado",
+      "card-receita": false
     }
   ]
 }
