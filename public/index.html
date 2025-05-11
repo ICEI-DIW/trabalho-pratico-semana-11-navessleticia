@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Site de Receita</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Zilla+Slab&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+
+  <header class="d-flex justify-content-center align-items-center bg-warning-subtle" style="height: 60px;">
+    <div class="input position-relative w-25">
+      <input type="text" placeholder="Buscar receita" class="form-control rounded-pill ps-3" />
+      <img src="assets/img/Search.png" alt="barra de pesquisa" class="position-absolute"
+        style="right: 20px; height: 23px; top: 4px;" />
+    </div>
+  </header>
+
+  <nav class="d-flex align-items-center w-100 flex-wrap">
+    <div class="logo ms-3">
+      <img src="assets/img/logo.png" alt="Logo" style="height: 70px; margin-top: -8px;" />
+    </div>
+    <label class="hamburguer-menu d-none flex-column ms-auto me-3" id="hamburguer">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </label>
+    <div class="nav-bar">
+      <ul class="d-flex list-unstyled gap-4 ms-4 mb-0" style="font-size: 20px;">
+        <li>Receitas</li>
+        <li>Sobre</li>
+      </ul>
+    </div>
+    <div class="nav-buttons d-flex align-items-center ms-auto me-3">
+      <div class="favorites d-flex justify-content-center align-items-center me-3">
+        <img src="assets/img/heart.png" alt="Botão de favoritos" style="height: 25px;" />
+      </div>
+      <div class="login d-flex align-items-center position-relative">
+        <button class="btn text-white"
+          style="background-color: #FF730F; border-radius: 20px; padding: 4px 25px 4px 25px;">entrar</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="d-flex flex-wrap gap-4 p-5">
+    <div class="main-content w-50">
+      <h1 class="fw-semibold" style="font-size: 50px; font-family: 'Poppins'; color: #353535; line-height: 3.5rem;">
+        Está pronto para descobrir seu novo <span style="color: #FF730F;">prato favorito?</span>
+      </h1>
+      <p style="font-family: 'Zilla Slab'; font-size: 20px; color: #353535;">Desafie seu paladar com algo novo hoje!</p>
+      <button class="btn text-white mt-2"
+        style="background-color: #FF730F; border-radius: 20px; font-size: 16px;">descubra</button>
+    </div>
+    <div class="content-image position-relative d-flex flex-column">
+      <img src="assets/img/photo-main.png" alt="prato de macarrao" class="img-fluid" />
+      <div class="subtitle-img d-flex flex-column align-items-center mt-2">
+        <button class="btn text-warning" style="background-color: white; font-family: 'Poppins';">Receita</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Carrousel -->
+   <div class="container">
+    <h1>Destaques</h1>
+    <section class="row mb-5 w-75 mx-auto p-1">
+      <div id="carouselDestaques" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators"></div>
+        <div class="carousel-inner"></div>      
+      
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestaques" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselDestaques" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </section>
+   </div>
+
+   <div class="container">
+    <h1>Receitas</h1>
+    <section id="section-cards-receitas" class="p-1" style="background-color: #F5FFE5;">
+
+    </section>
+   </div>
+
+  <footer class="d-flex justify-content-center align-items-center gap-4"
+    style="height: 200px; background-color: #B0B985;">
+    <a href="#"><i class="fab fa-instagram fs-4 text-white"></i></a>
+    <a href="#"><i class="fab fa-facebook fs-4 text-white"></i></a>
+    <a href="#"><i class="fab fa-twitter fs-4 text-white"></i></a><br>
+    <span style="color: white;">Letícia Naves Silva</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>

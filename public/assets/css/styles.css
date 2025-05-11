@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+#photoCarousel{
+  width: 500px;
+}
+
+.carousel-img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+#section-cards-receitas {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #F5FFE5;
+}
+
+.btn-ver-receita {
+  background-color: #FF730F;
+  color: white;
+  border: none;
+}
+
+.btn-ver-receita:hover{
+  background-color: #e55f00;
+  color: white;
+}
